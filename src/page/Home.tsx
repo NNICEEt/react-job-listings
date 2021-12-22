@@ -30,7 +30,6 @@ function Home() {
         return filteredItems.every((value) => newItems.includes(value));
       });
       setJobItems([...filter]);
-      console.log(filteredItems);
     } else {
       setJobItems([...jsonData]);
     }

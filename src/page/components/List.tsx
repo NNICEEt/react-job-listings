@@ -16,7 +16,7 @@ function List(props: JobListingProps) {
           <CardContent>
             <Box className="detail-box">
               <Box>
-                <Img src={process.env.PUBLIC_URL + item.logo} alt="" />
+                <Img src={process.env.PUBLIC_URL + item.logo.substring(1)} alt="" />
               </Box>
               <Box className="title-box">
                 <Text fontWeight={700} color="hsl(180, 29%, 50%)">
